@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hairsaloncontact.css" />
+    <title>Haircontact</title>
+  </head>
+  <body>
+    <div>
+      <h1>BEARD INC.</h1>
+      <img
+        src="https://cdn-icons.flaticon.com/png/512/4397/premium/4397805.png?token=exp=1651714927~hmac=66d8a2a5e369c79c2e3f30d140544e5c"
+        alt="logo"
+        class="logo"
+      />
+    </div>
+    <div class="container">
+      <div style="text-align: center">
+        <h2>CONTACT US</h2>
+        <nav>
+          <!-- <h2>NAVIGATION</h2> -->
+          <li><a href="../hairsalon.html">HOME</a></li>
+          <li><a href="../HairSalonAbout/hairsalonabout.html">ABOUT</a></li>
+          <li><a href="../HairSalonContact/hairsaloncontact.html">CONTACT</a></li>
+          <li><a href="../HairSalonGallery/hairsalongallery.html">GALLERY</a></li>
+        </nav>
+      </div>
+
+      <div align="center" class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 170px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <!-- </div> -->
+    </div>
+  </body>
+</html>

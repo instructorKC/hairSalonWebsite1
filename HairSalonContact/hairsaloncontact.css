@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(95, 126, 95);
+  }
+  a {
+    color: goldenrod;
+  }
+  li {
+    display: inline;
+    padding: 8%;
+    font-weight: bolder;
+    font-size: xx-large;
+    color:goldenrod;
+  }
+  a:hover {
+    color: black;
+    cursor: pointer;
+  }
+  nav {
+    border-bottom: 1px solid black;
+  }
+  .logo {
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(95, 126, 95);
+  }
+  h1 {
+    text-align: center;
+    color: goldenrod;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    background-color: rgb(95, 126, 95);
+  }
+  
+  .column {
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column,
+    input[type="submit"] {
+      width: 100%;
+      margin-top: 0;
+    }
+    li {
+      font-size: large;
+  }
+  .logo {
+  height: 100px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } 

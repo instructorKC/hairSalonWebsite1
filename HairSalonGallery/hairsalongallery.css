@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(95, 126, 95);
+  }
+  h1 {
+    text-align: center;
+    color: goldenrod;
+    text
+  }
+  nav {
+    border-bottom: 1px solid black;
+  }
+  .logo {
+    height:  80px;
+    /* display: flex; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(95, 126, 95);
+  }
+  li {
+    display: inline;
+    padding: 8%;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: goldenrod;
+  }
+  a {
+    color: goldenrod;
+  }
+  a:hover {
+      color: black;
+      cursor: pointer;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .column {
+      /* flex: 33.33%; */
+      padding: 5px;
+      width: 30vw;
+    }
+    @media screen and (max-width:500px) {
+      .column {
+          /* flex: 100%; */
+          padding: 5px;
+          width: 80vw;  
+    }
+    li {
+        font-size: large;
+    }
+    .logo {
+  height: 100px;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      
+    } 
+  }

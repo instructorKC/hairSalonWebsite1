@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(95, 126, 95);
+  display: flex;
+  flex-direction: column;
+}
+header,
+nav,
+aside,
+footer {
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+h1 {
+  color: goldenrod;
+}
+nav {
+  border-bottom: 1px solid black;
+}
+.logo {
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(95, 126, 95);
+}
+.Barbershop {
+  width: 100%;
+}
+section {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  height: 200px;
+}
+a {
+  color: goldenrod;
+}
+li {
+  display: inline;
+  padding: 8%;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: goldenrod;
+}
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+.icons {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  margin: 20px;
+  display: inline;
+}
+.imageContainer {
+  width: 100%;
+}
+
+@media screen and (max-width: 669px) {
+  li {
+    font-size: medium;
+  }
+  .logo {
+    height: 100px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
